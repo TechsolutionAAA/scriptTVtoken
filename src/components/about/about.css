@@ -1,0 +1,127 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    margin-top: 60px;
+}
+
+.about-title {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 126px;
+
+    text-align: center;
+
+    color: #FFEF00;
+}
+
+.about-description {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    width: 80%;
+}
+
+.about-discord-btn {
+    width: 485px;
+    height: 66px;
+
+    background: #FFEF00;
+    border-radius: 10px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 33px;
+
+    color: #111111;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 16px;
+
+    flex-wrap: wrap;
+}
+
+.about-card {
+    width: 600px;
+    min-width: 300px;
+
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    background-color: #060910;
+
+    border: none;
+    border-radius: 14px;
+
+    padding: 40px;
+
+    background-image: url(../../assets//about-card-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-card-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #B9B9B9;
+}
+
+.about-card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 113px;
+    text-align: center;
+
+    color: #FFEF00;
+}
+
+@media screen and (max-width: 690px) {
+    .about-card {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .about-card {
+        width: 300px;
+    }
+
+    .about-discord-btn {
+        width: 90%;
+        height: 46px;
+
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 3px;
+    }
+}
